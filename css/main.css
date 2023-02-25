@@ -70,3 +70,10 @@ li{
     height: 200px;
     background: #aaa;
   }
+  footer {
+    background-color: #FFF;
+    position:.justify-content-center;
+    bottom: 0px;
+    width: auto;
+    text-align: center;
+    }
