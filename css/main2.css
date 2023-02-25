@@ -1,0 +1,72 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px; 100px
+    grid-template-columns: 100px; 100px; 100px;
+  }
+
+.grid-item{
+    border: 1px solid red;
+
+
+}
+
+.item1{
+    background-color: blueviolet;
+
+}
+
+.item2{
+    background-color: yellow;
+    
+}
+.item3{
+    background-color: red;
+
+}
+.item4{
+    background-color: green;
+
+}
+.item5{
+    background-color:magenta;
+
+}
+
+.navbar .navbar-nav .nav-link .nav-item{
+    color:azure;
+    font-size: 3em;
+}
+
+li{
+    color: beige;
+
+
+}
+
+
+.navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+}
+.sm-icons {
+  flex-direction: row;
+}
+@media only screen and (max-width: 960px) {
+  .sm-icons .nav-item {
+    padding-right: 1em;
+  }
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .form-outline {
+    align-content: center;
+
+  }
+
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
